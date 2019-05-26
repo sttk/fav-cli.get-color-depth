@@ -1,0 +1,42 @@
+{
+  "name": "@fav/cli.get-color-depth",
+  "version": "0.0.0",
+  "description": "Determine what colors the terminal supports",
+  "main": "index.js",
+  "file": [
+    "index.js"
+  ],
+  "scripts": {
+    "lint": "eslint .",
+    "test": "./test/test.sh",
+    "test_win": ".\\test\\test.bat",
+    "coverage": "nyc --reporter=lcov --reporter=text-summary npm test",
+    "coveralls": "nyc --reporter=text-lcov npm test | coveralls",
+    "build": "npm run lint && npm run coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sttk/fav-cli.get-color-depth.git"
+  },
+  "keywords": [
+    "color",
+    "depth",
+    "support",
+    "terminal",
+    "256",
+    "truecolor",
+    "cli",
+    "fav"
+  ],
+  "author": "Takayuki Sato",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sttk/fav-cli.get-color-depth/issues"
+  },
+  "homepage": "https://github.com/sttk/fav-cli.get-color-depth#readme",
+  "devDependencies": {
+    "@fav/prop.assign": "^1.0.3",
+    "eslint": "^5.16.0",
+    "nyc": "^14.1.1"
+  }
+}
