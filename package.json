@@ -1,6 +1,6 @@
 {
   "name": "@fav/cli.get-color-depth",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Determine what colors the terminal supports",
   "main": "index.js",
   "file": [
